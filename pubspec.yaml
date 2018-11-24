@@ -1,0 +1,41 @@
+name: cherry
+description: SpaceX app made with Flutter.
+
+dependencies:
+
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^0.1.2
+
+  http: ^0.11.3+17
+  intl: ^0.15.7
+  flutter_web_browser: ^0.9.0+1
+  get_version: ^0.0.6
+  quick_actions: ^0.2.1
+  cached_network_image: ^0.4.2
+
+dev_dependencies:
+
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  fonts:
+    - family: RobotoMono
+      fonts:
+        - asset: fonts/RobotoMono-Bold.ttf
+        - asset: fonts/RobotoMono-Italic.ttf
+        - asset: fonts/RobotoMono-Light.ttf
+        - asset: fonts/RobotoMono-Medium.ttf
+        - asset: fonts/RobotoMono-Regular.ttf
+        - asset: fonts/RobotoMono-Thin.ttf
+          weight: 700
+    - family: ProductSans
+      fonts:
+        - asset: fonts/ProductSans-Bold.ttf
+        - asset: fonts/ProductSans-Italic.ttf
+        - asset: fonts/ProductSans-Regular.ttf
+          weight: 700
+
+  uses-material-design: true
