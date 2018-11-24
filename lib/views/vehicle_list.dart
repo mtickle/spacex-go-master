@@ -32,7 +32,6 @@ class VehicleList extends StatelessWidget {
     final shipsResponse = await http.get(Url.shipsList);
 
     List vehicleList = List();
-
     List rocketsJson = json.decode(rocketsResponse.body);
     List capsulesJson = json.decode(capsulesResponse.body);
     List shipsJson = json.decode(shipsResponse.body);
